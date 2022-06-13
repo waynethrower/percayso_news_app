@@ -1,0 +1,13 @@
+.quickbtn {
+  z-index: 1000;
+  color: var(--text-primary);
+  background-color: var(--background-two);
+  border: 2px var(--text-primary) solid;
+  float: right;
+  transition: all 0.5s;
+  text-transform: capitalize;
+}
+
+.quickbtn:hover {
+  background-color: var(--second-blue);
+}

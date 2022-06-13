@@ -1,0 +1,7 @@
+.themebutton {
+  z-index: 1000;
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 2px var(--text-primary) solid;
+  transition: all 0.5s;
+}

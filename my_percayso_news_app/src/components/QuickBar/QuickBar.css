@@ -1,0 +1,10 @@
+.qtwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-blue);
+}
+
+.qtcntr {
+  display: inline-block;
+}

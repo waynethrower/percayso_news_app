@@ -1,0 +1,38 @@
+.feed {
+  overflow-y: auto;
+  position: relative;
+  margin: auto;
+  left: 0;
+  width: 100%;
+  min-height: 90%;
+  z-index: 1;
+  display: grid;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  justify-items: center;
+}
+
+/* Specific query for the Nest Hub */
+@media only screen and (max-height: 600px) and (max-width: 1024px) {
+  .feed {
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+  }
+}
+
+/* Specific query for iPad mini */
+@media only screen and (width: 1024px) and (height: 768px) {
+  .feed {
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+  }
+}
+
+/* Specific query for Surface Pro 7 */
+@media only screen and (width: 1368px) and (height: 912px) {
+  .feed {
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+  }
+}
